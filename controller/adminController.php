@@ -13,5 +13,4 @@ class adminController
 	{
 		include('view/addBios.php');
 	}
-	
 }
