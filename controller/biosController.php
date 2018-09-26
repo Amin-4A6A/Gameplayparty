@@ -16,6 +16,9 @@ class biosController
 	}
 	public function home() 
 	{
+		var_dump('ik ben er');
 		include('view/home.php');
+		
 	}
+	
 }

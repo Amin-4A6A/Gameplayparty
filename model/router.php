@@ -9,15 +9,15 @@
             $packets = explode('/',$url);
             
             $this->determineDestination($packets);
-            
+            var_dump($packets);
         }    
 
         public function determineDestination($packets='')
         {
 
 
-            if (isset($packets[4]) && $packets[4] !='' && isset($packets[5]) && $packets[5] !=''){
-                $this->sendToDestination($packets[4], $packets[5], array_slice($packets, 5));
+            if (isset($packets[2]) && $packets[2] !='' && isset($packets[3]) && $packets[3] !=''){
+                $this->sendToDestination($packets[2], $packets[3], array_slice($packets, 3));
             }else{
                 echo "";
             }
@@ -26,7 +26,7 @@
 
         public function sendToDestination($classname, $method, $params)
         {
-            $class =  APP_DIR . 'controller/' . $classname . '.php';
+            $class =  APP_DIR . '/controller/' . $classname . '.php';
             require_once($class);
 
             $obj = new $classname;
