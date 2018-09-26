@@ -9,4 +9,12 @@ class adminModel {
         $this->dataHandler = new dataHandler("mysql", "localhost", "gameplayparty", "root", "");
     }
 
+    // public function addCatalogus()
+    // {
+    //    $query = 'INSERT INTO bioscopen () VALUES()';
+    //    $bioscopen = $this->dataHandler->CreateData($query);
+
+    //    return $bioscopen;
+    // }
+
 }
