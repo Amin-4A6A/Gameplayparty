@@ -1,40 +1,36 @@
 </div>
+<span></span>
 
 <section class="cid-qv5ALrxDIE" id="footer5-3j" data-rv-view="4084">
-    <div class="container">
-        <div class="media-container-row">            
-            <div class="col-md-9">
-                <p class="mbr-text align-right links mbr-fonts-style display-7">
-                    <a href="#" class="text-black">ABOUT</a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="text-black">TERMS</a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="text-black">CAREERS</a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="text-black">CONTACT</a>
-                </p>
-            </div>
-        </div>
-        <div class="footer-lower">
-            <div class="media-container-row">
-                <div class="col-md-12">
-                    <hr>
-                </div>
-            </div>
-            <div class="media-container-row mbr-white">
-                <div class="col-md-6 copyright">
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2019 Footer Template- All Rights Reserved
-                    </p>
-                </div>
-                <!-- logo van facebook fixen -->
-                <div class="col-md-6">
-                    <div class="social-list align-right">
-                    <div class="soc-item">
-                        <a href=""><i class="fab fa-facebook-square"></i>
-                        </a>                        
-                    </div>
-                </div>
-            </div>
+<div class="container">
+<div class="media-container-row">            
+    <div class="col-md-9">
+        <p class="mbr-text align-right links mbr-fonts-style display-7">
+            <a href="#" class="text-black">ABOUT</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" class="text-black">TERMS</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" class="text-black">CAREERS</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" class="text-black">CONTACT</a>
+        </p>
+    </div>
+</div>
+<div class="footer-lower">
+    <div class="media-container-row">
+        <div class="col-md-12">
+            <hr>
         </div>
     </div>
+    <div class="media-container-row mbr-white">
+        <div class="col-md-6 copyright">
+            <p class="copyright">
+                © Copyright 2019 Gameplayparty
+            </p>
+        </div>
+        <!-- logo van facebook fixen --> 
+        <div class="col-md-6 align-right">
+        	<i class="fab fa-facebook-square fa-3x"></i>
+        </div>           
+	</div>
+</div>
 </section>
 
 
