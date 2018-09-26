@@ -14,4 +14,8 @@ class biosController
 		$bioscopen = $this->model->readBios();
 		include('view/biosView.php');
 	}
+	public function home() 
+	{
+		include('view/home.php');
+	}
 }
