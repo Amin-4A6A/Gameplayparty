@@ -2,7 +2,7 @@
 
 require_once("model/router.php");
 
-define("APP_DIR", "C:/xampp/htdocs/Gameplayparty");
+require "config.php";
 
 new router;
 
