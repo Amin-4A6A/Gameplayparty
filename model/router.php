@@ -9,7 +9,6 @@
             $packets = explode('/',$url);
             
             $this->determineDestination($packets);
-            var_dump($packets);
         }    
 
         public function determineDestination($packets='')
