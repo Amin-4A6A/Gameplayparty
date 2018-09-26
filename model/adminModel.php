@@ -2,7 +2,7 @@
 
 require_once('controller/dataHandler.php');
 
-class contactModel {
+class adminModel {
 
 	 public function __construct()
     {
