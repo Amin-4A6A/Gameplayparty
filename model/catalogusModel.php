@@ -6,12 +6,12 @@ class catalogusModel {
 
 	 public function __construct()
     {
-        $this->dataHandler = new dataHandler("mysql", "localhost", "MVC", "root", "");
+        $this->dataHandler = new dataHandler("mysql", "localhost", "gameplayparty", "root", "");
     }
 
     public function readCatalogus()
     {
-       $query = 'SELECT * FROM contacts';
+       $query = 'SELECT * FROM bioscopen';
        $bioscopen = $this->dataHandler->ReadData($query);
 
        return $bioscopen;
