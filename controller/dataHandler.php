@@ -19,7 +19,8 @@ class dataHandler
 
     function CreateData($sql)
     {
-        $this->conn->exec($sql);
+        $data = $this->conn->prepare($sql);
+        $data->execute();
         return $this->conn->lastInsertId();
     }
 
