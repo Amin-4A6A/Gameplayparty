@@ -33,6 +33,8 @@ class adminController
 			// $capaciteit = $_POST['bioscoop_capaciteit'];
 		
 			// $bioscopen = $this->model->createBios($naam, $info, $locatie, $capaciteit);
+			header("Location: {$_SERVER['HTTP_REFERER']}");
+			exit;
 		} else {
 			require_once('view/addBios.php');
 		}

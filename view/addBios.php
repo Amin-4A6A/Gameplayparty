@@ -22,5 +22,6 @@
         <small id="emailHelp" class="form-text text-muted">Velden met een &#42; zijn verplicht.</small><br>
         <button type="submit" class="btn btn-primary" name="create">Plaats bioscoop</button>
     </form>
+    
 
 <?php include('partials/footer.php'); ?>

@@ -1,37 +1,51 @@
 </div>
 <span></span>
-
-<section class="cid-qv5ALrxDIE" id="footer5-3j" data-rv-view="4084">
-<div class="container">
-<div class="media-container-row">            
-    <div class="col-md-9">
-        <p class="mbr-text align-right links mbr-fonts-style display-7">
-            <a href="#" class="text-black">ABOUT</a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="#" class="text-black">TERMS</a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="#" class="text-black">CAREERS</a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="#" class="text-black">CONTACT</a>
-        </p>
-    </div>
+<div class="content">
 </div>
-<div class="footer-lower">
-    <div class="media-container-row">
-        <div class="col-md-12">
-            <hr>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 info">
+                    <h5>Information</h5>
+                    <p> Lorem ipsum dolor amet, consectetur adipiscing elit. Etiam consectetur aliquet aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="media-container-row mbr-white">
-        <div class="col-md-6 copyright">
-            <p class="copyright">
-                © Copyright 2019 Gameplayparty
-            </p>
+        <div class="second-bar">
+           <div class="container">
+                <h2 class="logo"><a href="#"> LOGO </a></h2>
+                <div class="social-icons">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
         </div>
-        <!-- logo van facebook fixen --> 
-        <div class="col-md-6 align-right">
-        	<i class="fab fa-facebook-square fa-3x"></i>
-        </div>           
-	</div>
-</div>
-</section>
+    </footer>
 
 
 </body>
