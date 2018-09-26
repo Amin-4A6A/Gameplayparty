@@ -6,7 +6,7 @@ class catalogusModel {
 
 	 public function __construct()
     {
-        $this->dataHandler = new dataHandler("mysql", "localhost", "MVC", "root", "");
+        $this->dataHandler = new dataHandler("mysql", "localhost", "mvc", "root", "");
     }
 
     public function readCatalogus()
