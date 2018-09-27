@@ -9,20 +9,17 @@ class adminModel {
         $this->dataHandler = new dataHandler("mysql", "localhost", "gameplayparty", "root", "");
     }
 
-   //  public function gatherBiosData()
-   //  {
-   //  		$naam = $_POST['bioscoop_naam'];
-			// $info = $_POST['bioscoop_informatie'];
-			// $locatie = $_POST['bioscoop_locatie'];
-			// $capaciteit = $_POST['bioscoop_capaciteit'];
-		
-			// // $bioscopen = $this->model->createBios($naam, $info, $locatie, $capaciteit);
-   //  }
 
-    public function createBios($naam, $info, $locatie, $capaciteit) { 
+    public function createBios($naam, $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden) { 
 	
 	try {
-		$sql = "INSERT INTO bioscopen(bioscoop_naam, bioscoop_informatie, bioscoop_locatie, bioscoop_capaciteit) VALUES ('$naam', '$info', '$locatie', '$capaciteit')";
+		if ($rolstoel == "ja") {
+			$toegang = 1;
+		} else {
+			$toegang = 0;
+		}
+
+		$sql = "INSERT INTO bioscopen(bios_naam, adres, postcode, stad, provincie, begintijd, eindtijd, bereikbaar_auto, bereikbaar_ov, bereikbaar_fiets, rolstoeltoegankelijkheid, voorwaarden) VALUES ('$naam', '$adres', '$postcode', '$stad', '$provincie', '$begintijd',  '$eindtijd',  '$auto',  '$ov',  '$fiets',  '$toegang', '$voorwaarden')";
 		$result = $this->dataHandler->CreateData($sql);
 
 		return $result;

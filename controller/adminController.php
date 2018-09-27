@@ -26,13 +26,19 @@ class adminController
 	
 	public function collectBios() {
 		if(isset($_POST["create"])) {
-			// $this->model->gatherBiosData();
-			$naam = $_POST['bioscoop_naam'];
-			$info = $_POST['bioscoop_informatie'];
-			$locatie = $_POST['bioscoop_locatie'];
-			$capaciteit = $_POST['bioscoop_capaciteit'];
-		
-			$bioscopen = $this->model->createBios($naam, $info, $locatie, $capaciteit);
+			$naam = $_POST['bios_naam'];
+			$adres = $_POST['adres'];
+			$postcode = $_POST['postcode'];
+			$stad = $_POST['stad'];
+			$provincie = $_POST['provincie'];
+			$begintijd = $_POST['begintijd'];
+			$eindtijd = $_POST['eindtijd'];
+			$auto = $_POST['bereikbaar_auto'];
+			$ov = $_POST['bereikbaar_ov'];
+			$fiets = $_POST['bereikbaar_fiets'];
+			$rolstoel = $_POST['rolstoeltoegankelijkheid'];
+			$voorwaarden = $_POST['voorwaarden'];
+			$bioscopen = $this->model->createBios($naam, $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden);
 			header("Location: {$_SERVER['HTTP_REFERER']}");
 			exit;
 		} else {
