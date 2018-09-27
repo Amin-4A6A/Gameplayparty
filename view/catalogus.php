@@ -7,16 +7,16 @@
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title"> <?php echo $bioscoop['bioscoop_naam']; ?></li></h5>
-                            <p class="card-text"> <?php echo $bioscoop['bioscoop_informatie']; ?></li></p>
+                            <h5 class="card-title"> <?php echo $bioscoop['bios_naam']; ?></li></h5>
+                            <p class="card-text"> <?php echo $bioscoop['provincie']; ?></li></p>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"<h5> ID: </h5>
-                                        <?php echo $bioscoop['bioscoop_id']; ?></li>
-                            <li class="list-group-item"> <h5> Locatie: </h5>
-                                        <?php echo $bioscoop['bioscoop_locatie']; ?></li>
-                            <li class="list-group-item"> <h5> Capaciteit: </h5>
-                                        <?php echo $bioscoop['bioscoop_capaciteit']; ?></li>
+                            <li class="list-group-item"><h5> Begintijd: </h5>
+                                        <?php echo $bioscoop['begintijd']; ?></li>
+                            <li class="list-group-item"> <h5> Eindtijd: </h5>
+                                        <?php echo $bioscoop['eindtijd']; ?></li>
+                            <li class="list-group-item"> <h5> Voorwaarden: </h5>
+                                        <?php echo $bioscoop['voorwaarden']; ?></li>
                         </ul>
                         <div class="card-body">
                             <a href="#" class="card-link">Card link</a>
