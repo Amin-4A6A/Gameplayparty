@@ -9,15 +9,15 @@ class adminModel {
         $this->dataHandler = new dataHandler("mysql", "localhost", "gameplayparty", "root", "");
     }
 
-    public function gatherBiosData()
-    {
-    		$naam = $_POST['bioscoop_naam'];
-			$info = $_POST['bioscoop_informatie'];
-			$locatie = $_POST['bioscoop_locatie'];
-			$capaciteit = $_POST['bioscoop_capaciteit'];
+   //  public function gatherBiosData()
+   //  {
+   //  		$naam = $_POST['bioscoop_naam'];
+			// $info = $_POST['bioscoop_informatie'];
+			// $locatie = $_POST['bioscoop_locatie'];
+			// $capaciteit = $_POST['bioscoop_capaciteit'];
 		
-			// $bioscopen = $this->model->createBios($naam, $info, $locatie, $capaciteit);
-    }
+			// // $bioscopen = $this->model->createBios($naam, $info, $locatie, $capaciteit);
+   //  }
 
     public function createBios($naam, $info, $locatie, $capaciteit) { 
 	
