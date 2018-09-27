@@ -24,5 +24,10 @@ class biosController
 		include('view/overons.php');
 		
 	}
+	public function login() 
+	{
+		include('view/login.php');
+		
+	}
 	
 }
