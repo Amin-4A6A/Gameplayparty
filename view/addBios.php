@@ -35,11 +35,11 @@
         </div>
         <div class="form-group">
             <label for="email">Bereikbaarheid openbaar vervoer&#42;</label>
-            <textarea class="form-control no-resize" style="resize: none; name="bereikbaar_ov" placeholder="Bereikbaarheid openbaar vervoer.." rows="5" required></textarea>
+            <textarea class="form-control no-resize" style="resize: none;" name="bereikbaar_ov" placeholder="Bereikbaarheid openbaar vervoer.." rows="5" required></textarea>
         </div>
         <div class="form-group">
             <label for="email">Bereikbaarheid fiets&#42;</label>
-            <textarea class="form-control no-resize" style="resize: none; name="bereikbaar_fiets" placeholder="Bereikbaarheid fiets.." rows="5" required></textarea>
+            <textarea class="form-control no-resize" style="resize: none;" name="bereikbaar_fiets" placeholder="Bereikbaarheid fiets.." rows="5" required></textarea>
         </div>
         <div class="form-group">
             <label for="naam">Rolstoeltoegankelijk?&#42;</label><br>
@@ -48,7 +48,7 @@
         </div>
         <div class="form-group">
             <label for="email">Voorwaarden&#42;</label>
-            <textarea class="form-control no-resize" style="resize: none; name="voorwaarden" placeholder="Voorwaarden.." rows="5" required></textarea>
+            <textarea class="form-control no-resize" style="resize: none;" name="voorwaarden" placeholder="Voorwaarden.." rows="5" required></textarea>
         </div>
        
         <small id="emailHelp" class="form-text text-muted">Velden met een &#42; zijn verplicht.</small><br>
