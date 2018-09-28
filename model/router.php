@@ -51,17 +51,17 @@
 
         public function determineDestination($packets='')
         {
-            if(!isset($packets[2]) && empty($packets[2])){
+            if(!isset($packets[1]) && empty($packets[1])){
                 $class = "biosController";
             } else {
-                $class = $packets[2];
+                $class = $packets[1];
             }
          var_dump($class);
-           if(!isset($packets[3]) && empty($packets[3])){
+           if(!isset($packets[2]) && empty($packets[2])){
                 $method = "home";
                 
             } else {
-                $method = $packets[3];
+                $method = $packets[2];
             }
         var_dump($method);
 
