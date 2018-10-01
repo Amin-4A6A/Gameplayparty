@@ -20,13 +20,13 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/Gameplayparty/biosController/home">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contactController/contact">Contact</a>
+            <a class="nav-link" href="/Gameplayparty/contactController/contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/loginController/invoke">Login</a>
+            <a class="nav-link" href="/Gameplayparty/loginController/invoke">Login</a>
           </li>
         </ul>
       </div>
