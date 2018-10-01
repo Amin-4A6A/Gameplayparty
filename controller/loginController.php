@@ -11,14 +11,14 @@ class loginController
 
 	public function invoke() 
 	{
-        $reslt = $this->model->getlogin();
+        $result = $this->model->getlogin();
 
-        if($reslt == true)
+        if($result == true)
         {
-            include('view/catalogus.php');
+            require_once('view/addBios.php');
         }else
         {
-            include('view/login.php');
+            require_once('view/login.php');
         }
 
 	}
