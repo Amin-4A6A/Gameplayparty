@@ -56,7 +56,6 @@
             } else {
                 $class = $packets[1];
             }
-         var_dump($class);
            if(!isset($packets[2]) && empty($packets[2])){
                 $method = "home";
                 
