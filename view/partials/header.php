@@ -26,7 +26,7 @@
             <a class="nav-link" href="/contactController/contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contactController/contact">login</a>
+            <a class="nav-link" href="/loginController/invoke">Login</a>
           </li>
         </ul>
       </div>
