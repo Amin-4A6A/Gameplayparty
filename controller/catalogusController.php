@@ -14,5 +14,10 @@ class catalogusController
 		$bioscopen = $this->model->readCatalogus();
 		include('view/catalogus.php');
 	}
+	public function addCatalogus() 
+	{
+		// $bioscopen = $this->model->readCatalogus();
+		include('view/addBios.php');
+	}
 }
 
