@@ -16,7 +16,7 @@ class loginController
         if($result == true)
         {
             require_once('view/addBios.php');
-        }else
+        } else
         {
             require_once('view/login.php');
         }
