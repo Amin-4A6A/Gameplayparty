@@ -14,7 +14,8 @@ class loginController
         $result = $this->model->getlogin();
 
         if($result == true)
-        {
+        {	
+        	header('Location: ../adminController/addbios');
             require_once('view/addBios.php');
         } else
         {
