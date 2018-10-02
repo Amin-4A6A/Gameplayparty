@@ -62,7 +62,6 @@
             } else {
                 $method = $packets[2];
             }
-        var_dump($method);
 
                 $this->sendToDestination($class, $method, array_slice($packets, 3));
         }
