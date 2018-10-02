@@ -6,36 +6,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <h5>Get started</h5>
+                    <h5>Menu</h5>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">login</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
-                    <h5>About us</h5>
+                    <h5>Beleid</h5>
                     <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Gebruikersvoorwaarden</a></li>
+                        <li><a href="#">Privacy beleid</a></li>
+                        <li><a href="#">Cookie beleid</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
-                    <h5>Support</h5>
+                    <h5>Rules</h5>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Algemene verkoopvoorwaarden</a></li>
+                        <li><a href="#">Privacy beleid B2B</a></li>
+                        <li><a href="#">Sitemap</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <div class="footer-copyright text-center py-3"> &copy;<?= date("Y"); ?>
             <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Gameplayparty</a>
         </div>
     </footer>
-
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
