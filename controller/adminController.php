@@ -33,7 +33,7 @@ class adminController
 	{
 		require_once('view/editOverOns.php');
 	}
-
+	
 	// Verwerkt ingevulde gegevens
 	
 	public function collectBios() {
@@ -58,4 +58,11 @@ class adminController
 		}
 		
 	}
+
+	public function showCMS() 
+	{
+		$cms = $this->model->readCMS();
+		include('view/cms.php');
+	}
+
 }

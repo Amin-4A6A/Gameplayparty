@@ -21,7 +21,6 @@
                                     <a href="#" class="card-link">Another link</a>
                                 </div>
                         </div>
-                    <!-- </div> -->
                 <?php endforeach; ?>
     </div>
 
