@@ -18,7 +18,7 @@
                 <input type="password" id="password" name="password" required="required" class="form-control" placeholder="Wachtwoord.." required>
               </div>
 
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Log in</button>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" style="background-color: #A3CB38; border: none;">Log in</button>
               <hr class="my-4">
               
             </form>
