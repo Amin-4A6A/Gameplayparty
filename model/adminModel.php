@@ -29,4 +29,11 @@ class adminModel {
 		return $result;
 	}
 
+	public function readCMS()
+    {
+       $query = 'SELECT * FROM paginas';
+       $cms = $this->dataHandler->ReadData($query);
+
+       return $cms;
+    }
 }
