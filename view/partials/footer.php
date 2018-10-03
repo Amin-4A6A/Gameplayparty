@@ -9,8 +9,8 @@
                     <h5>Menu</h5>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">contact</a></li>
-                        <li><a href="#">login</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Login</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
