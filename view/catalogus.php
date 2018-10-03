@@ -16,8 +16,6 @@
                                                 <?php echo $bioscoop['begintijd']; ?></li>
                                     <li class="list-group-item"> <h5> Eindtijd: </h5>
                                                 <?php echo $bioscoop['eindtijd']; ?></li>
-                                    <li class="list-group-item"> <h5> Voorwaarden: </h5>
-                                                <?php echo $bioscoop['voorwaarden']; ?></li>
                                 </ul>
                                 <div class="card-body">
                                     <a href="#" class="card-link">Card link</a>
