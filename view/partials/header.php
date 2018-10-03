@@ -22,6 +22,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="/Gameplayparty/biosController/home">Home<span class="sr-only">(current)</span></a>
           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="/Gameplayparty/catalogusController/showCatalogus">Catalogus</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="/Gameplayparty/contactController/contact">Contact</a>
           </li>
