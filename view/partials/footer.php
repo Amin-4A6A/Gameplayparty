@@ -8,9 +8,10 @@
                 <div class="col-sm-4">
                     <h5>Menu</h5>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Login</a></li>
+                        <li><a href="/Gameplayparty/biosController/home">Home</a></li>
+                        <li><a href="/Gameplayparty/catalogusController/showCatalogus">Catalogus</a></li>
+                        <li><a href="/Gameplayparty/contactController/contact">Contact</a></li>
+                        <li><a href="/Gameplayparty/loginController/invoke">Login</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4">

@@ -22,6 +22,12 @@ class adminController
 		require_once('view/addBios.php');
 	}
 
+	// Router naar admin panel
+	public function adminPanel()
+	{
+		require_once('view/adminPanel.php');
+	}
+
 	// Verwerkt ingevulde gegevens
 	
 	public function collectBios() {
