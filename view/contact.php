@@ -1,5 +1,7 @@
 <?php include('partials/header.php'); ?>
 <form method="post" action="">
+        <h1>Contact</h1><br>
+        <p>Heeft u nog vragen of op- of aanmerkingen? Laat het ons weten!</p>
         <div class="form-group">
             <label for="naam">Naam&#42;</label>
             <input type="text" class="form-control" name="naam" placeholder="Naam" required>

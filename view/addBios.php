@@ -1,6 +1,6 @@
 <?php include('partials/header.php'); ?>
-
 <form method="post" action="../adminController/collectBios/">
+        <h1> Bioscoop toevoegen </h1>
         <div class="form-group">
             <label for="naam">Bioscoopnaam&#42;</label>
             <input type="text" class="form-control" name="bios_naam" placeholder="Bioscoopnaam.." required>
