@@ -1,5 +1,6 @@
 <?php include('partials/header.php'); ?>
     <h1> Catalogus</h1><br>
+    <hr class="my-4">
         <div class="row">
         <?php foreach ($bioscopen as $bioscoop): ?>
             <div class="col-md-4">
@@ -11,7 +12,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">Details</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Detail</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Reserveren</button>
                         </div>
                         <!-- <small class="text-muted">9 mins</small> -->
                     </div>
