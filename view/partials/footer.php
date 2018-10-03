@@ -23,7 +23,7 @@
                     </ul>
                 </div>
                 <div class="col-sm-4">
-                    <h5>Rules</h5>
+                    <h5>Extra informatie</h5>
                     <ul>
                         <li><a href="#">Algemene verkoopvoorwaarden</a></li>
                         <li><a href="#">Privacy beleid B2B</a></li>
