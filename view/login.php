@@ -10,12 +10,12 @@
 
               <div class="form-label-group">
               <label for="inputEmail">E-mail</label>
-                <input type="text" id="username" name="username" required="required" class="form-control" placeholder="E-mail.." required autofocus>
+                <input value="root" type="text" id="username" name="username" required="required" class="form-control" placeholder="E-mail.." required autofocus>
               </div>
 
               <div class="form-label-group">
               <label for="inputPassword">Wachtwoord</label>
-                <input type="password" id="password" name="password" required="required" class="form-control" placeholder="Wachtwoord.." required>
+                <input value="root" type="password" id="password" name="password" required="required" class="form-control" placeholder="Wachtwoord.." required>
               </div>
 
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" style="background-color: #A3CB38; border: none;">Log in</button>
