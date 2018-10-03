@@ -15,8 +15,7 @@ class loginController
 
         if($result == true)
         {	
-        	header('Location: ../adminController/addbios');
-            require_once('view/addBios.php');
+        	header('Location: ../adminController/adminPanel');
         } else
         {
             require_once('view/login.php');

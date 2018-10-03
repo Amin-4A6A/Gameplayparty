@@ -1,6 +1,6 @@
 <?php include('partials/header.php'); ?>
-
 <form method="post" action="../adminController/collectBios/">
+        <h1> Bioscoop toevoegen </h1>
         <div class="form-group">
             <label for="naam">Bioscoopnaam&#42;</label>
             <input type="text" class="form-control" name="bios_naam" placeholder="Bioscoopnaam.." required>
@@ -52,7 +52,7 @@
         </div>
        
         <small id="emailHelp" class="form-text text-muted">Velden met een &#42; zijn verplicht.</small><br>
-        <button type="submit" class="btn btn-primary" name="create">Voeg bioscoop toe</button>
+        <button type="submit" class="btn btn-primary" name="create" style="background-color: #A3CB38; border: none;">Voeg bioscoop toe</button>
     </form>
     
 

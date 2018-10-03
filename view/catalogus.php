@@ -1,7 +1,6 @@
 <?php include('partials/header.php'); ?>
-
+    <h1> Catalogus</h1><br>
     <div class="row">
-            
                 <?php foreach ($bioscopen as $bioscoop): ?>
                     
                     <div class="card col-md-4">
