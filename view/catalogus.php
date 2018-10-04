@@ -14,7 +14,6 @@
                         <button type="button" class="btn btn-sm btn-outline-secondary">Details</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary">Reserveren</button>
                         </div>
-<<<<<<< HEAD
                         <!-- <small class="text-muted">9 mins</small> -->
                     </div>
                     </div>
@@ -22,10 +21,6 @@
             </div>
             <?php endforeach; ?>
         </div>
-=======
-                <?php endforeach; ?>
-    </div>
->>>>>>> e75e54e302eecc4fdf1bb89e3093b6ddb59849c6
 
     
    
