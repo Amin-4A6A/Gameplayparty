@@ -50,7 +50,8 @@ class adminController
 			$fiets = $_POST['bereikbaar_fiets'];
 			$rolstoel = $_POST['rolstoeltoegankelijkheid'];
 			$voorwaarden = $_POST['voorwaarden'];
-			$bioscopen = $this->model->createBios($naam, $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden);
+			$link = $_POST['link'];
+			$bioscopen = $this->model->createBios($naam, $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden, $link);
 			header("Location: {$_SERVER['HTTP_REFERER']}");
 			exit;
 		} else {

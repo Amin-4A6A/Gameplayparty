@@ -11,7 +11,9 @@
                     <p class="card-text"><?php echo $bioscoop['provincie']; ?></p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Details</button>
+                        <form target="_blank" action="<?php echo $bioscoop['link'] ;?>">
+                             <button type="submit" class="btn btn-sm btn-outline-secondary">Details</button>
+                        </form>
                         <button type="button" class="btn btn-sm btn-outline-secondary">Reserveren</button>
                         </div>
                         <!-- <small class="text-muted">9 mins</small> -->
