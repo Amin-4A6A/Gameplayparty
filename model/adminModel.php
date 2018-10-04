@@ -10,7 +10,7 @@ class adminModel {
     }
 
 
-    public function createBios($naam, $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden) { 
+    public function createBios($naam, $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden, $link) { 
 	
 	try {
 		if ($rolstoel == "ja") {
@@ -19,7 +19,7 @@ class adminModel {
 			$toegang = 0;
 		}
 
-		$sql = "INSERT INTO bioscopen(bios_naam, adres, postcode, stad, provincie, begintijd, eindtijd, bereikbaar_auto, bereikbaar_ov, bereikbaar_fiets, rolstoeltoegankelijkheid, voorwaarden) VALUES ('$naam', '$adres', '$postcode', '$stad', '$provincie', '$begintijd',  '$eindtijd',  '$auto',  '$ov',  '$fiets',  '$toegang', '$voorwaarden')";
+		$sql = "INSERT INTO bioscopen(bios_naam, adres, postcode, stad, provincie, begintijd, eindtijd, bereikbaar_auto, bereikbaar_ov, bereikbaar_fiets, rolstoeltoegankelijkheid, voorwaarden, link) VALUES ('$naam', '$adres', '$postcode', '$stad', '$provincie', '$begintijd',  '$eindtijd',  '$auto',  '$ov',  '$fiets',  '$toegang', '$voorwaarden', '$link')";
 		$result = $this->dataHandler->CreateData($sql);
 
 		return $result;
