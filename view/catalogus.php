@@ -23,10 +23,6 @@
             </div>
             <?php endforeach; ?>
         </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 69544bd61f7c4f2658c8d59d0fa1762410478faa
 
     
    
