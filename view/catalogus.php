@@ -12,7 +12,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                         <form target="_blank" action="<?php echo $bioscoop['link'] ;?>">
-                             <button type="submit" class="btn btn-sm btn-outline-secondary">Details</button>
+                             <button type="submit" class="btn btn-sm butn-left btn-outline-secondary">Details</button>
                         </form>
                         <button type="button" class="btn btn-sm btn-outline-secondary">Reserveren</button>
                         </div>
