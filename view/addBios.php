@@ -6,6 +6,10 @@
             <input type="text" class="form-control" name="bios_naam" placeholder="Bioscoopnaam.." required>
         </div>
         <div class="form-group">
+            <label for="image">Afbeelding&#42;</label><br>
+            <input type="file" name="image" required>
+        </div>
+        <div class="form-group">
             <label for="adres">Adres&#42;</label>
             <input type="text" class="form-control" name="adres" placeholder="Adres.." required>
         </div>

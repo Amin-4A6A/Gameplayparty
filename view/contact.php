@@ -1,5 +1,5 @@
 <?php include('partials/header.php'); ?>
-<form method="post" action="">
+<form method="post" action="sendMailTo.php">
         <h1>Contact</h1><br>
         <p>Heeft u nog vragen of op- of aanmerkingen? Laat het ons weten!</p>
         <div class="form-group">
