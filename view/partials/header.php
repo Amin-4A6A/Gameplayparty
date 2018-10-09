@@ -29,7 +29,7 @@
             <a class="nav-link" href="/Gameplayparty/contactController/contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/Gameplayparty/loginController/invoke">Login</a>
+            <a class="nav-link" href="/Gameplayparty/loginController/login">Login</a>
           </li>
         </ul>
       </div>

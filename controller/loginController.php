@@ -1,26 +1,41 @@
 <?php
 
-require_once('model/loginModel.php');
+require_once('model/userModel.php');
 
 class loginController
 {	
 	function __construct()
 	{
-		$this->model = new loginModel;
+		$this->userModel = new userModel;
 	}
 
-	public function invoke() 
-	{
-        $result = $this->model->getlogin();
 
-        if($result == true)
-        {	
-        	header('Location: ../adminController/adminPanel');
-        } else
-        {
-            require_once('view/login.php');
+	 public function login() 
+    {
+    if(isset($_REQUEST["submit"])) {
+		$this->userModel->login($_REQUEST["username"], $_REQUEST["password"]);
+		// echo("<pre>");
+        // var_dump($this->userModel);
+        // echo("</pre>");
+        if(!$this->userModel->isLoggedIn)
+		die(header("Location: ../loginController/login"));
+
+        switch($this->userModel->user["role"]) {
+            case "admin":
+			header("Location: ../adminController/adminPanel");
+
+                break;
+            case "bioscoop":
+			header("Location: ../adminController/adminPanel");
+                break;
+             default:
+			// header("Location: ../adminController/adminPanel");
+                break;
         }
-
-	}
+    } else {
+        include "view/login.php";
+    }
+    
+     }
 	
 }
