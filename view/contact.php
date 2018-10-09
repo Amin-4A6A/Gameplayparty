@@ -1,5 +1,5 @@
 <?php include('partials/header.php'); ?>
-<form method="post" action="sendMailTo.php">
+    <form method="post" action="http://localhost/Gameplayparty/controller/contactController/sendmail">
         <h1>Contact</h1><br>
         <p>Heeft u nog vragen of op- of aanmerkingen? Laat het ons weten!</p>
         <div class="form-group">
@@ -15,6 +15,6 @@
             <textarea class="form-control no-resize" name="bericht" placeholder="Uw bericht.." rows="5" required></textarea>
         </div>
         <small id="emailHelp" class="form-text text-muted">Velden met een &#42; zijn verplicht.</small><br>
-        <button type="submit" class="btn btn-primary" name="contact" style="background-color: #A3CB38; border: none;">Neem contact op</button>
+        <button type="submit" class="btn btn-primary" name="contact" style="background-color: #A3CB38; border: none;">verzend</button>
     </form>
 <?php include('partials/footer.php'); ?>
