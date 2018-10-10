@@ -1,5 +1,5 @@
 #myFooter {
-    background-color: #3a3f46;
+    background-color: #A3CB38;
     color: white;
 }
 
@@ -39,11 +39,6 @@
     padding: 0;
 }
 
-#myFooter a {
-    color: #d2d1d1;
-    text-decoration: none;
-}
-
 #myFooter a:hover,
 #myFooter a:focus {
     text-decoration: none;
@@ -52,7 +47,7 @@
 
 #myFooter .second-bar {
     text-align: center;
-    background-color: #33373e;
+    /*background-color: #33373e;*/
     text-align: center;
 }
 
@@ -68,21 +63,9 @@
     text-decoration: none;
 }
 
+
 #myFooter .social-icons {
     float:right;
-}
-
-
-#myFooter .facebook:hover {
-    color: #0077e2;
-}
-
-#myFooter .google:hover {
-    color: #ef1a1a;
-}
-
-#myFooter .twitter:hover {
-    color: #00aced;
 }
 
 @media screen and (max-width: 767px) {
@@ -94,8 +77,6 @@
         text-align: center;
     }
 }
-
-
 
 /* CSS used for positioning the footers at the bottom of the page. */
 /* You can remove this. */
@@ -121,4 +102,22 @@ body{
 #myFooter{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+}
+.center-logo {
+    text-align: center;
 }

@@ -2,7 +2,9 @@
 <span></span>
 <div class="content">
 </div>
-    <footer id="myFooter" style="background: #A3CB38 !important;">
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+<!-- style="background: #A3CB38;" -->
+    <footer id="myFooter" >
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -22,7 +24,7 @@
                         <li><a href="#">Cookie beleid</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-4">
+                <div>
                     <h5>Extra informatie</h5>
                     <ul>
                         <li><a href="#">Algemene verkoopvoorwaarden</a></li>
@@ -32,6 +34,13 @@
                 </div>
             </div>
         </div>
+
+        <div class="center-logo">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- <a href="#" class="fa fa-facebook"></a> -->
+            <a class="fab fa-facebook-f fa-3x" href=""></a>
+        </div>
+
         <div class="footer-copyright text-center py-3"> &copy;<?= date("Y"); ?>
             <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Gameplayparty</a>
         </div>
