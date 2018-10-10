@@ -43,5 +43,6 @@
     </div>
     </a>
   </div>
+</div>
 
 <?php include('partials/footer.php'); ?>

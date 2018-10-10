@@ -34,4 +34,16 @@
     </a>
   </div>
 
+  <div class="col-md-4">
+    <a href="#" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+         <i class="fas fa-ticket-alt fa-3x" style="float: right;"></i><br><br><br>
+        <span style="font-size: 20px;">Reserveringen</span>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
 <?php include('partials/footer.php'); ?>
