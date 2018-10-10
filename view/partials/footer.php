@@ -37,11 +37,11 @@
         <div class="center-logo">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <!-- <a href="#" class="fa fa-facebook"></a> -->
-            <a class="fab fa-facebook-f fa-3x" href=""></a>
+            <a class="fab fa-facebook-f fa-3x" href="https://www.facebook.com/Kinepolis.Nederland/" target="_blank"></a>
         </div>
 
         <div class="footer-copyright text-center py-3"> &copy;<?= date("Y"); ?>
-            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Gameplayparty</a>
+            <a href="http://www.kinepolis.nl" target="_blank"> Gameplayparty</a>
         </div>
     </footer>
 

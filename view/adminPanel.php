@@ -44,6 +44,17 @@
     </div>
     </a>
   </div>
+
+  <div class="col-md-4">
+    <a href="../biosController/home" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+         <i class="fas fa-sign-out-alt fa-3x" style="float: right;"></i><br><br><br>
+        <span style="font-size: 20px;">Uitloggen</span>
+      </div>
+    </div>
+    </a>
+  </div>
 </div>
 
 <?php include('partials/footer.php'); ?>
