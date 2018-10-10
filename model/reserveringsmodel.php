@@ -8,16 +8,11 @@ class reserveringsModel {
     {
         $this->dataHandler = new dataHandler("mysql", "localhost", "gameplayparty", "root", "");
     }
-    public function createreservation($reservation_date, $begin_date , $end_date, $amount_persons, $subtotaal, $total, $reserved) { 
+    public function createReservering($voornaam, $achternaam , $telefoonnummer, $straatnaam, $huisnummer, $toevoeging, $postcode, $stad, $provincie) { 
 	
-        // try {
-        //     if ($rolstoel == "ja") {
-        //         $toegang = 1;
-        //     } else {
-        //         $toegang = 0;
-        //     }
+        try {
     
-            $sql = "INSERT INTO reservation(reservation_date, begin_date, end_date, amount_persons, subtotaal, total, reserved) VALUES ('$reservation_date', '$begin_date' ,'$end_date', '$amount_persons', '$subtotaal', '$total', '$reserved')";
+            $sql = "INSERT INTO klant(voornaam, achternaam, telefoonnummer, straatnaam, huisnummer, toevoeging, postcode, stad, provincie) VALUES ('$voornaam', '$achternaam' ,'$telefoonnummer', '$straatnaam',  '$huisnummer',  '$toevoeging',  '$postcode', '$stad', '$provincie')";
             $result = $this->dataHandler->CreateData($sql);
     
             return $result;
