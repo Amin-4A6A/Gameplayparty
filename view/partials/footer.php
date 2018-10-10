@@ -3,7 +3,6 @@
 <div class="content">
 </div>
     <link rel="stylesheet" type="text/css" href="../assets/style.css">
-<!-- style="background: #A3CB38;" -->
     <footer id="myFooter" >
         <div class="container">
             <div class="row">
