@@ -1,5 +1,5 @@
 <?php include('partials/header.php'); ?>
-<form method="post" action="../adminController/collectBios/">
+<form method="post" action="../adminController/collectBios/" enctype="multipart/form-data">
         <h1> Bioscoop toevoegen </h1>
         <div class="form-group">
             <label for="naam">Bioscoopnaam&#42;</label>
@@ -62,7 +62,11 @@
        
         <small id="emailHelp" class="form-text text-muted">Velden met een &#42; zijn verplicht.</small><br>
         <button type="submit" class="btn btn-primary" name="create" style="background-color: #A3CB38; border: none;">Voeg bioscoop toe</button>
-    </form>
-    
+        <?php
 
+
+        
+?>
+
+    </form>
 <?php include('partials/footer.php'); ?>

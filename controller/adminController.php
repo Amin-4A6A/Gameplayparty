@@ -45,7 +45,7 @@ class adminController
 	public function collectBios() {
 		if(isset($_POST["create"])) {
 			$naam = $_POST['bios_naam'];
-			$foto = $_POST['image'];
+			$foto = $_FILES['image']["name"];
 			$adres = $_POST['adres'];
 			$postcode = $_POST['postcode'];
 			$stad = $_POST['stad'];
@@ -58,8 +58,23 @@ class adminController
 			$rolstoel = $_POST['rolstoeltoegankelijkheid'];
 			$voorwaarden = $_POST['voorwaarden'];
 			$link = $_POST['link'];
-			$bioscopen = $this->model->createBios($naam, $foto, $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden, $link);
-			header("Location: {$_SERVER['HTTP_REFERER']}");
+			$bioscopen = $this->adminModel->createBios($naam, $foto, $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden, $link);
+
+			if(isset($_POST["create"])) {
+
+            $target_path = "view/images/thumbnails/";
+
+            $target_path = $target_path . basename( $_FILES['image']['name']); 
+            
+
+            if(move_uploaded_file($_FILES['image']['tmp_name'], $target_path)) {
+                echo "The file ".  basename( $_FILES['image']['name']). 
+                " has been uploaded";
+            } else{
+                echo "There was an error uploading the file, please try again!";
+            }
+        }
+			header("Location: ../../catalogusController/showCatalogus");
 			exit;
 		} else {
 			require_once('view/addBios.php');
@@ -69,7 +84,7 @@ class adminController
 
 	public function showCMS() 
 	{
-		$cms = $this->model->readCMS();
+		$cms = $this->adminModel->readCMS();
 		include('view/cms.php');
 	}
 

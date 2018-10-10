@@ -9,13 +9,13 @@
 
               <div class="form-label-group">
               <label for="inputEmail">E-mail</label>
-                <input value="root" type="text" id="username" name="username" required="required" class="form-control" placeholder="E-mail.." required autofocus>
+                <input value="test" type="text" id="username" name="username" required="required" class="form-control" placeholder="E-mail.." required autofocus>
               </div>
               <hr class="my-4">
 
               <div class="form-label-group">
               <label for="inputPassword">Wachtwoord</label>
-                <input value="root" type="password" id="password" name="password" required="required" class="form-control" placeholder="Wachtwoord.." required>
+                <input value="test" type="password" id="password" name="password" required="required" class="form-control" placeholder="Wachtwoord.." required>
               </div>
               <hr class="my-4">
 
