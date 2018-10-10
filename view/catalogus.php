@@ -17,7 +17,6 @@
                         </form>
                         <button type="button" class="btn btn-sm btn-outline-secondary">Reserveren</button>
                         </div>
-                        <!-- <small class="text-muted">9 mins</small> -->
                     </div>
                     </div>
                 </div>

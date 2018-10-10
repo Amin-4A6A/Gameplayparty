@@ -27,11 +27,11 @@
         </div>
         <div class="form-group">
             <label for="begintijd">Begintijd&#42;</label>
-            <input type="time" class="form-control" name="begintijd" required>
+            <input type="datetime-local" class="form-control" name="begintijd" required>
         </div>
         <div class="form-group">
             <label for="eind">Eindtijd&#42;</label>
-            <input type="time" class="form-control" name="eindtijd" required>
+            <input type="datetime-local" class="form-control" name="eindtijd" required>
         </div>
         <div class="form-group">
             <label for="auto">Bereikbaarheid auto&#42;</label>
@@ -62,11 +62,5 @@
        
         <small id="emailHelp" class="form-text text-muted">Velden met een &#42; zijn verplicht.</small><br>
         <button type="submit" class="btn btn-primary" name="create" style="background-color: #A3CB38; border: none;">Voeg bioscoop toe</button>
-        <?php
-
-
-        
-?>
-
     </form>
 <?php include('partials/footer.php'); ?>
