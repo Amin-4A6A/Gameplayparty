@@ -2,6 +2,7 @@
 
     <form method="post" action="http://localhost/Gameplayparty/contactController/sendmail">       
         <h1>Contact</h1><br>
+        <hr class="my-4">
         <p>Heeft u nog vragen of op- of aanmerkingen? Laat het ons weten!</p>
         <div class="form-group">
             <label for="naam">Naam&#42;</label>

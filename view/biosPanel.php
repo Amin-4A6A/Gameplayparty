@@ -1,16 +1,47 @@
 <?php include('partials/header.php'); ?>
-
-<div class="container-fluid">
-      <div class="row">
-        <?php require_once('partials/dashboardPanel.php'); ?>
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-            <h1 class="h2">Bioscopen Dashboard</h1>
-          </div>
-            <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="/Gameplayparty/adminController/addBios">Bioscoop toevoegen</a></button>
-            <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="#">Bioscoop aanpassen</a></button>
-            <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="#">Bioscoop verwijderen</a></button>
-        </main>
+ <h1> Bioscopen </h1><br>
+<div class="row">
+  <div class="col-md-4">
+    <a href="../adminController/addBios" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+          <i class="fas fa-plus fa-3x" style="float: right;"></i><br><br><br>
+        <span style="font-size: 20px;">Bioscoop toevoegen</span>
       </div>
     </div>
+    </a>
+  </div>
+
+  <div class="col-md-4">
+    <a href="#" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+          <i class="fas fa-minus fa-3x" style="float: right;"></i><br><br><br>
+        <span style="font-size: 20px;">Bioscoop verwijderen</span>
+      </div>
+    </div>
+    </a>
+  </div>
+
+  <div class="col-md-4">
+    <a href="#" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+          <i class="fas fa-pen fa-3x" style="float: right;"></i><br><br><br>
+        <span style="font-size: 20px;">Bioscoop aanpassen</span>
+      </div>
+    </div>
+    </a>
+  </div>
+
+  <div class="col-md-12">
+    <a href="../adminController/adminPanel" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+        <span style="font-size: 20px;">Terug naar Dashboard</span>
+      </div>
+    </div>
+    </a>
+  </div>
+
 <?php include('partials/footer.php'); ?>

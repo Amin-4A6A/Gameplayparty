@@ -1,7 +1,8 @@
 <?php include('partials/header.php'); ?>
+  <h1> Teksten aanpassen</h1><br>
 	<table class="table">
 	<tr>
-	<th scope="col">Paginanaam</th>
+	<th scope="col">Pagina naam</th>
 	<th scope="col">Content</th>
 	<th scope="col">Wijzig</th>
 	</tr>
@@ -36,6 +37,17 @@
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
+  </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+    <a href="../adminController/adminPanel" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+        <span style="font-size: 20px;">Terug naar Dashboard</span>
+      </div>
+    </div>
+    </a>
   </div>
 </div>
 <?php include('partials/footer.php'); ?>

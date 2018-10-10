@@ -1,14 +1,37 @@
 <?php include('partials/header.php'); ?>
-
-<div class="container-fluid">
-      <div class="row">
-        <?php require_once('partials/dashboardPanel.php'); ?>
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-            <h1 class="h2">Dashboard</h1>
-          </div>
-            <!-- Hier komt de content -->
-        </main>
+ <h1> Dashboard </h1><br>
+<div class="row">
+  <div class="col-md-4">
+    <a href="../adminController/biosPanel" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+          <i class="fas fa-film fa-3x" style="float: right;"></i><br><br><br>
+        <span style="font-size: 20px;">Bioscopen</span>
       </div>
     </div>
+    </a>
+  </div>
+
+  <div class="col-md-4">
+    <a href="../adminController/showCMS" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+          <i class="fas fa-pen fa-3x" style="float: right;"></i><br><br><br>
+        <span style="font-size: 20px;">Teksten aanpassen</span>
+      </div>
+    </div>
+    </a>
+  </div>
+
+  <div class="col-md-4">
+    <a href="#" style="text-decoration: none;">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+          <i class="fas fa-chart-bar fa-3x" style="float: right;"></i><br><br><br>
+        <span style="font-size: 20px;">Analytics</span>
+      </div>
+    </div>
+    </a>
+  </div>
+
 <?php include('partials/footer.php'); ?>
