@@ -22,6 +22,12 @@ class adminController
 		echo '</pre>';
 	}
 
+	// Router naar bioscopenpagina
+	public function biosPanel() 
+	{
+		require_once('view/biosPanel.php');
+	}
+
 	// Router naar form voor invullen bioscoop
 	public function addBios() 
 	{

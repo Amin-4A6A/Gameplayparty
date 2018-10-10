@@ -1,6 +1,13 @@
 <?php include('partials/header.php'); ?>
-<form method="post" action="../adminController/collectBios/" enctype="multipart/form-data">
-        <h1> Bioscoop toevoegen </h1>
+
+<div class="container-fluid">
+      <div class="row">
+        <?php require_once('partials/dashboardPanel.php'); ?>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">Bioscoop toevoegen</h1>
+          </div>
+          <form method="post" action="../adminController/collectBios/" enctype="multipart/form-data">
         <div class="form-group">
             <label for="naam">Bioscoopnaam&#42;</label>
             <input type="text" value="Testbioscoop" class="form-control" name="bios_naam" placeholder="Bioscoopnaam.." required>
@@ -63,4 +70,7 @@
         <small id="emailHelp" class="form-text text-muted">Velden met een &#42; zijn verplicht.</small><br>
         <button type="submit" class="btn btn-primary" name="create" style="background-color: #A3CB38; border: none;">Voeg bioscoop toe</button>
     </form>
+        </main>
+      </div>
+    </div>
 <?php include('partials/footer.php'); ?>
