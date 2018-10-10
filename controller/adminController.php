@@ -63,11 +63,9 @@ class adminController
 			if(isset($_POST["create"])) {
 
             $target_path = "view/images/thumbnails/";
-
-            $target_path = $target_path . basename( $_FILES['image']['name']); 
-            
-
-            if(move_uploaded_file($_FILES['image']['tmp_name'], $target_path)) {
+            $target_path = $target_path . basename($_FILES['image']['name']); 
+           
+   		   if(move_uploaded_file($_FILES['image']['tmp_name'], $target_path)) {
                 echo "The file ".  basename( $_FILES['image']['name']). 
                 " has been uploaded";
             } else{
