@@ -41,6 +41,15 @@
             <label for="provincie">Aantal personen&#42;</label>
             <input type="number" class="form-control" name="aantal_personnen" required>
         </div>
+        <label for="">Selecteer een datum</label>
+                    <select class="form-control mb-5" <?= $disabled[0]; ?>>
+                    <?= $disabled[1]; ?>
+                    <?php foreach ($tijden as $tijd): ?>
+                            <option value="1" class="form-control"><?= date("D H:i", strtotime($tijd['begintijd'])) ?> - <?= date("H:i", strtotime($tijd['eindtijd'])) ?></option>
+                            <?php var_dump($tijd['begintijd']); ?>
+                        <?php endforeach; ?>
+                    </select>
+                    
         <!-- <div class="form-group">
             <label for="provincie">datum&#42;</label>
             <input type="date" class="form-control" name="reservering_date" placeholder="datum.." required>
