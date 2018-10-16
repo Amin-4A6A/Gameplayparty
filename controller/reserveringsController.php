@@ -9,7 +9,7 @@ class reserveringsController
 		$this->reserveringsModel = new reserveringsModel;
 	}
 
-	public function resevering() 
+	public function reservering() 
 	{
 		include('view/reserveringsform.php');
 		
@@ -26,7 +26,12 @@ class reserveringsController
             $postcode = $_POST['postcode'];
             $stad = $_POST['stad'];
             $provincie = $_POST['provincie'];
-			$bioscopen = $this->model->createReservering($voornaam, $achternaam , $telefoonnummer, $straatnaam, $huisnummer, $toevoeging, $postcode, $stad, $provincie);
+			$klanten = $this->reserveringsModel->createReservering($voornaam, $achternaam , $telefoonnummer, $straatnaam, $huisnummer, $toevoeging, $postcode, $stad, $provincie);
+			$reservering_date = $_POST['reservering_date'];
+			$begin_tijd = $_POST['begin_tijd'];
+			$eind_tijd = $_POST['eind_tijd'];
+			$aantal_personnen = $_POST['aantal_personnen'];
+			$klanten = $this->reserveringsModel->createReservering($reservering_date, $begin_tijd , $eind_tijd, $aantal_personnen);
 			header("Location: {$_SERVER['HTTP_REFERER']}");
 			exit;
 		} else {

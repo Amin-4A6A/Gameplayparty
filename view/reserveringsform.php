@@ -10,6 +10,14 @@
             <input type="text" class="form-control" name="achternaam" placeholder="achternaam.." required>
         </div>
         <div class="form-group">
+            <label for="huisnummer">telefoonnummer&#42;</label>
+            <input type="text" class="form-control" name="telefoonnummer" placeholder="telefoonnummer.." required>
+        </div>
+        <div class="form-group">
+            <label for="toevoeging">straatnaam&#42;</label>
+            <input type="text" class="form-control" name="straatnaam" placeholder="straatnaam.." required>
+        </div>
+        <div class="form-group">
             <label for="huisnummer">huisnummer&#42;</label>
             <input type="text" class="form-control" name="huisnummer" placeholder="huisnummer.." required>
         </div>
@@ -29,28 +37,25 @@
             <label for="provincie">provincie&#42;</label>
             <input type="text" class="form-control" name="provincie" placeholder="Provincie.." required>
         </div>
+        <div class="form-group">
+            <label for="provincie">Aantal personen&#42;</label>
+            <input type="number" class="form-control" name="aantal_personnen" required>
+        </div>
         <!-- <div class="form-group">
             <label for="provincie">datum&#42;</label>
-            <input type="date" class="form-control" name="datum" placeholder="datum.." required>
+            <input type="date" class="form-control" name="reservering_date" placeholder="datum.." required>
         </div>
         <div class="form-group">
             <label for="provincie">begin&#42;</label>
-            <input type="time" class="form-control" name="begin" placeholder="begin.." required>
+            <input type="time" class="form-control" name="begin_tijd" placeholder="begin.." required>
         </div>
         <div class="form-group">
             <label for="provincie">eind&#42;</label>
-            <input type="time" class="form-control" name="eind" placeholder="eind.." required>
+            <input type="time" class="form-control" name="eind_tijd" placeholder="eind.." required>
         </div> -->
-        <!-- <label for="">datum</label>
-                    <select class="form-control mb-5" <?= $disabled[0]; ?>>
-                    <?= $disabled[1]; ?>
-                    <?php foreach ($tijden as $tijd): ?>
-                            <option class="form-control"><?= date("D H:i", strtotime($tijd['start_time'])) ?> - <?= date("H:i", strtotime($tijd['end_time'])) ?></option>
-                        <?php endforeach; ?>
-                    </select> -->
-       
+ 
         <small id="emailHelp" class="form-text text-muted">Velden met een &#42; zijn verplicht.</small><br>
-        <button type="submit" class="btn btn-primary" name="create" style="background-color: #A3CB38; border: none;">Voeg bioscoop toe</button>
+        <button type="submit" class="btn btn-primary" name="create" style="background-color: #A3CB38; border: none;">reserveer nu</button>
     </form>
     
 

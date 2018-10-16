@@ -15,13 +15,15 @@
                         <form target="_blank" action="<?php echo $bioscoop['link'] ;?>">
                              <button type="submit" class="btn btn-sm butn-left btn-outline-secondary">Details</button>
                         </form>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Reserveren</button>
+                       
+                        <a class="btn btn-sm btn-outline-secondary" href="../reserveringsController/reservering/<?=$bioscoop['bios_id']?>">Reserveer</a>
                         </div>
                     </div>
                     </div>
                 </div>
             </div>
             <?php endforeach; ?>
+           <!-- <?php var_dump($bioscopen);?> -->
         </div>
 
     
