@@ -1,5 +1,5 @@
 *{
-    color: #2c3e50 !important;
+    color: #2c3e50;
 }
 .butn-left {
     margin-right: 10px;
@@ -7,3 +7,15 @@
 .crstyle {
     margin-top: 150px !important;
 };
+
+.hoofdtext{
+	color: white;
+}
+
+.text {
+	color: white;
+} 
+
+.image_top {
+	background-image: url("view/images/homePic.jpg");
+}

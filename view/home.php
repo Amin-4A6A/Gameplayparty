@@ -1,19 +1,26 @@
 
 <?php include('partials/header.php'); ?>
 </div>
-
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <img src="../view/images/homePic.jpg" style="height:500px; width: 900px; margin-right: 50%;" class="">
-        <h1 class="display-4 font-weight-normal">Welkom op Gameplayparty</h1>
-        <p class="lead font-weight-normal">Hier kunt u een reservering plaatsen voor een leuke feest of het uitproberen van uw volgende game!</p>
+  <!-- <div>
+    <div class="card card-inverse">
+    <img class="card-img" src="../view/images/homePic.jpg" alt="foto">
+      <div class="card-img-overlay">
+        <h1>Welkom op Gameplayparty</h1>
+        <p>Hier kunt u een reservering plaatsen voor een leuke feest of het uitproberen van uw volgende game!</p>
         <a class="btn btn-outline-secondary" href="/Gameplayparty/catalogusController/showCatalogus">Catalogus</a>
       </div>
-      
-      <div class="product-device shadow-sm d-none d-md-block"></div>
-      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
+  </div> -->
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5 image_top">
+        <h1 class="display-4 font-weight-normal">Welkom op Gameplayparty</h1>
+        <p class="lead font-weight-normal">Hier kunt u een reservering plaatsen voor een leuke feest of het uitproberen van uw volgende game!</p>
+        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+      </div>
+  </div>
+</div>
+
     <div class="crstyle container">
     <hr class="featurette-divider">
     <div class="row featurette">
