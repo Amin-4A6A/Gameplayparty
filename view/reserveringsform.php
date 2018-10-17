@@ -46,10 +46,10 @@
                     <?= $disabled[1]; ?>
                     <?php foreach ($tijden as $tijd): ?>
                             <option value="1" class="form-control"><?= date("D H:i", strtotime($tijd['begintijd'])) ?> - <?= date("H:i", strtotime($tijd['eindtijd'])) ?></option>
-                            <?php var_dump($tijd['begintijd']); ?>
                         <?php endforeach; ?>
                     </select>
-                    
+                            <?php var_dump($tijd['begintijd']); ?>
+                    <!--  -->
         <!-- <div class="form-group">
             <label for="provincie">datum&#42;</label>
             <input type="date" class="form-control" name="reservering_date" placeholder="datum.." required>

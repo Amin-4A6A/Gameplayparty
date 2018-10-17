@@ -32,7 +32,7 @@ class reserveringsController
 			$eind_tijd = $_POST['eind_tijd'];
 			$aantal_personnen = $_POST['aantal_personnen'];
 			$klanten = $this->reserveringsModel->createReservering($reservering_date, $begin_tijd , $eind_tijd, $aantal_personnen);
-			$tijden = $this->model->readCatalogus();
+			$tijden = $this->reserveringsModel->createReservering();
 			header("Location: {$_SERVER['HTTP_REFERER']}");
 			exit;
 		} else {
