@@ -4,7 +4,7 @@
 
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
       <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <img src="../view/images/homePic.jpg" style="height:500px; width: 900px;" class="">
+        <img src="../view/images/homePic.jpg" style="height:500px; width: 900px; margin-right: 50%;" class="">
         <h1 class="display-4 font-weight-normal">Welkom op Gameplayparty</h1>
         <p class="lead font-weight-normal">Hier kunt u een reservering plaatsen voor een leuke feest of het uitproberen van uw volgende game!</p>
         <a class="btn btn-outline-secondary" href="/Gameplayparty/catalogusController/showCatalogus">Catalogus</a>

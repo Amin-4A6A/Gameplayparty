@@ -13,7 +13,6 @@
 </head>
 <body>
 <nav class="nav-top p-0 navbar navbar-expand-md fixed-top" style="background: #A3CB38 !important;">
-<img src="../view/images/gpp.svg" height="80" alt="">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,5 +34,5 @@
       </div>
     </div>
     </nav>
-
+    <img src="../view/images/gpp.svg" style="margin-top: 2%; margin-right: 50%; position: sticky;" alt="">
     <div class="crstyle container">
