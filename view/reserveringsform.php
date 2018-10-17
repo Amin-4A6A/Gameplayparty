@@ -1,5 +1,5 @@
 <?php include('partials/header.php'); ?>
-<?php include(''); ?>
+<!-- <?php include(''); ?> -->
 <form method="post" action="../reserveringsController/collectreservering/">
         <h1> Bioscoop reserveren </h1>
         <div class="form-group">
@@ -44,9 +44,8 @@
         </div>
         <label for="">Selecteer een datum</label>
                     <select class="form-control mb-5">
-                    <?php foreach ($bioscopen as $bioscoop): ?>
-                    <?php var_dump($bioscoop);?>
-                            <option value="1" class="form-control"><?= date("D H:i", strtotime($bioscoop['begintijd'])) ?> - <?= date("H:i", strtotime($bioscoop['eindtijd'])) ?></option>
+                    <?php foreach ($tijden as $tijd): ?>
+                            <option value="1" class="form-control"><?= date("D H:i", strtotime($tijd['begintijd'])) ?> - <?= date("H:i", strtotime($tijd['eindtijd'])) ?></option>
                         <?php endforeach; ?>
                     </select>
                            
