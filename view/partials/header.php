@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-<nav class="nav-top p-0 navbar navbar-expand-md fixed-top" style="background: #A3CB38 !important;">
+<header class="fixed-top p-0">
+<nav class="nav-top navbar navbar-expand-md" style="background: #A3CB38 !important;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,5 +35,9 @@
       </div>
     </div>
     </nav>
-    <img src="../view/images/gpp.svg" style="margin-top: 2%; margin-right: 50%; position: sticky;" alt="">
+    <div>
+      <img src="../view/images/gpp.svg" alt="">
+    </div>
+</header>
+    
     <div class="crstyle container">
