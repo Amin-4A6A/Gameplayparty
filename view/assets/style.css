@@ -1,5 +1,5 @@
 *{
-    color: #2c3e50;
+    color: #2c3e50!important;
 }
 .butn-left {
     margin-right: 10px;
@@ -17,5 +17,5 @@
 } 
 
 .image_top {
-	background-image: url("view/images/homePic.jpg");
+	background-image: url("../view/images/homePic.jpg");
 }
