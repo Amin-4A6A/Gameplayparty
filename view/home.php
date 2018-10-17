@@ -1,26 +1,12 @@
 
 <?php include('partials/header.php'); ?>
 </div>
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-  <!-- <div>
-    <div class="card card-inverse">
-    <img class="card-img" src="../view/images/homePic.jpg" alt="foto">
-      <div class="card-img-overlay">
+<div class="p-3 p-md-5 p-t m-md-3 text-center bg-light" style="background-image: url('../view/images/homePic.jpg'); height: auto;">
+    <div class="">
         <h1>Welkom op Gameplayparty</h1>
         <p>Hier kunt u een reservering plaatsen voor een leuke feest of het uitproberen van uw volgende game!</p>
         <a class="btn btn-outline-secondary" href="/Gameplayparty/catalogusController/showCatalogus">Catalogus</a>
-      </div>
     </div>
-  </div> -->
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Welkom op Gameplayparty</h1>
-        <p class="lead font-weight-normal">Hier kunt u een reservering plaatsen voor een leuke feest of het uitproberen van uw volgende game!</p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-      </div>
-      <img src="../view/images/homePic.jpg" style="width: 1000px; height: 700px;">
-  </div>
-
 </div>
 
     <div class="crstyle container">
