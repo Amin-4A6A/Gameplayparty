@@ -23,7 +23,7 @@
                 </div>
             </div>
             <?php endforeach; ?>
-           <!-- <?php var_dump($bioscopen);?> -->
+           <!-- <?php //var_dump($bioscopen);?> -->
         </div>
 
     

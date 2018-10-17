@@ -11,10 +11,10 @@ class reserveringsController
 
 	public function reservering() 
 	{
-		include('view/reserveringsform.php');
+		require_once('view/reserveringsform.php');
 		
     }
-    
+   
     public function collectreservering() {
 		if(isset($_POST["create"])) {
 			$voornaam = $_POST['voornaam'];
