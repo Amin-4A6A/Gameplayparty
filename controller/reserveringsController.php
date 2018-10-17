@@ -11,10 +11,10 @@ class reserveringsController
 
 	public function reservering() 
 	{
-		include('view/reserveringsform.php');
+		require_once('view/reserveringsform.php');
 		
     }
-    
+   
     public function collectreservering() {
 		if(isset($_POST["create"])) {
 			$voornaam = $_POST['voornaam'];
@@ -26,14 +26,16 @@ class reserveringsController
             $postcode = $_POST['postcode'];
             $stad = $_POST['stad'];
             $provincie = $_POST['provincie'];
-			$klanten = $this->reserveringsModel->createReservering($voornaam, $achternaam , $telefoonnummer, $straatnaam, $huisnummer, $toevoeging, $postcode, $stad, $provincie);
+			$bioscopen = $this->reserveringsModel->createReservering($voornaam, $achternaam , $telefoonnummer, $straatnaam, $huisnummer, $toevoeging, $postcode, $stad, $provincie, $reservering_date, $begin_tijd , $eind_tijd, $aantal_personnen);
 			$reservering_date = $_POST['reservering_date'];
 			$begin_tijd = $_POST['begin_tijd'];
 			$eind_tijd = $_POST['eind_tijd'];
 			$aantal_personnen = $_POST['aantal_personnen'];
-			$klanten = $this->reserveringsModel->createReservering($reservering_date, $begin_tijd , $eind_tijd, $aantal_personnen);
-			header("Location: {$_SERVER['HTTP_REFERER']}");
-			exit;
+			$klanten = $this->reserveringsModel->createReservering();
+			// $tijden = $this->reserveringsModel->createReservering();
+			// header("Location: {$_SERVER['HTTP_REFERER']}");
+			// exit;
+			include('view/reserveringsform.php');
 		} else {
 			require_once('view/reserveringsform.php');
 		}

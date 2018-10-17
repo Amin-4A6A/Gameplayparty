@@ -11,6 +11,8 @@ class reserveringsModel {
     public function createReservering($voornaam, $achternaam , $telefoonnummer, $straatnaam, $huisnummer, $toevoeging, $postcode, $stad, $provincie, $reservering_date, $begin_tijd, $eind_tijd, $aantal_personnen ) { 
 	
         try {
+            
+            $sql = 'SELECT `begintijd`, `eindtijd` FROM bioscopen inner join reservering_tijd ON reservering_tijd.bios_id = bioscopen.bios_id';
             $sql = "INSERT INTO klant(voornaam, achternaam, telefoonnummer, straatnaam, huisnummer, toevoeging, postcode, stad, provincie) VALUES ('$voornaam', '$achternaam' ,'$telefoonnummer', '$straatnaam',  '$huisnummer',  '$toevoeging',  '$postcode', '$stad', '$provincie')";
             $sql = "INSERT INTO reservering(reservering_date, begin_tijd, eind_tijd, aantal_personnen) VALUES ('$reservering_date', '$begin_tijd' ,'$eind_tijd', '$aantal_personnen')";
             $result = $this->dataHandler->CreateData($sql);
