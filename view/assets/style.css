@@ -1,13 +1,11 @@
 *{
-    color: #2c3e50!important;
+    color: #2c3e50 !important;
 }
+
 .butn-left {
     margin-right: 10px;
 }
-.crstyle {
-    margin-top: 150px !important;
-};
 
-.kleur_text {
-	color: #fff;
-}
+.crstyle {
+    margin-top: 100px;
+};

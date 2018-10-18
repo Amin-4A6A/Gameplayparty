@@ -1,11 +1,11 @@
 
 <?php include('partials/header.php'); ?>
 </div>
-<div class="p-3 p-md-5 p-t m-md-3 text-center bg-light" style="background-image: url('../view/images/homePic.jpg'); height: auto;">
-    <div class="">
-        <h1>Welkom op Gameplayparty</h1>
-        <p>Hier kunt u een reservering plaatsen voor een leuke feest of het uitproberen van uw volgende game!</p>
-        <a class="btn btn-outline-secondary" href="/Gameplayparty/catalogusController/showCatalogus">Catalogus</a>
+<div class="p-3 p-md-5 p-t m-md-3 text-center bg-light" style="background-image: url('../view/images/homePic.jpg');">
+    <div class="position-relative overflow-hidden p-3 p-md-5 p-t m-md-3">
+        <h1 style="color: #fff !important">Welkom op Gameplayparty</h1>
+        <p style="color: #fff !important">Hier kunt u een reservering plaatsen voor een leuke feest of het uitproberen van uw volgende game!</p>
+        <a class="btn btn-outline-secondary" href="/Gameplayparty/catalogusController/showCatalogus" style="color: #fff !important">Catalogus</a>
     </div>
 </div>
 
