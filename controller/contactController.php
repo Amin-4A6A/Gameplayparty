@@ -21,11 +21,12 @@ class contactController
 		 	$email = $_POST['email'];
 		 	$bericht = $_POST['bericht'];
 
-		 	// if 
-
 		 	$email= mail("brandon.louwaars@gmail.com", "Contact", "Naam: " . $naam . "<br>" . "email: " . $email . "<br><br>" . "Bericht: " . $bericht);
-		 } else {
-		 	
+
+		 	if(!preg_match("/^\S+@\S+$/", $email)) {
+      		return "dit is geen emailadres";
+    }
+		 } else {		 	
 		 	$this->contact();
 		 }
 	}

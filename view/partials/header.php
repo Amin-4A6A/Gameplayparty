@@ -13,7 +13,7 @@
 </head>
 <body>
 <header class="fixed-top p-0">
-<nav class="nav-top navbar navbar-expand-md" style="background: #A3CB38 !important;">
+<nav class="nav-top navbar navbar-expand-md" style="background: #A3CB38;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
