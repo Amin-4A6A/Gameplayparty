@@ -17,7 +17,7 @@
             <textarea class="form-control no-resize" name="bericht" placeholder="Uw bericht.." rows="5" required></textarea>
         </div>
         <small id="emailHelp" class="form-text text-muted">Velden met een &#42; zijn verplicht.</small><br>
-        <button type="submit" class="btn btn-primary" name="contact" style="background-color: #A3CB38; border: none;">verzend</button>
+        <button type="submit" class="btn btn-primary" name="contact" style="background-color: #A3CB38; border: none;">Verzend</button>
     </form>
 
 <?php include('partials/footer.php'); ?>
