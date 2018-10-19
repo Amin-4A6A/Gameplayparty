@@ -42,7 +42,7 @@
         </div>
 
         <div class="footer-copyright text-center py-3"> &copy;<?= date("Y"); ?>
-            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Gameplayparty</a>
+            <a href="https://kinepolis.nl"> Gameplayparty</a>
         </div>
     </footer>
 
