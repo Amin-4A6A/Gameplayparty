@@ -3,13 +3,19 @@
 require_once('model/userModel.php');
 
 class loginController
-{	
+{	 
+    /**
+    * Create new instance
+    */
 	function __construct()
 	{
 		$this->userModel = new userModel;
 	}
 
-
+     /**
+    * Input: Login data
+      Output: Logged in or failed login
+    */
 	 public function login() 
     {
     if(isset($_REQUEST["submit"])) {

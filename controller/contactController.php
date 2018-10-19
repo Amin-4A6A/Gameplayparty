@@ -4,16 +4,26 @@ require_once('model/contactModel.php');
 
 class contactController
 {	
+	/**
+	* Create new instance
+	*/
 	function __construct()
 	{
 		$this->model = new contactModel;
 	}
 
+	/**
+	* Show contact form
+	*/
 	public function contact() 
 	{
 		include('view/contact.php');		
 	}
 
+	/**
+	* Input: filled in fields for sending email
+	  Output: email sent to Peter Piper
+	*/
 	public function sendMail()
 	{
 		 if (isset($_POST['submit'])) {

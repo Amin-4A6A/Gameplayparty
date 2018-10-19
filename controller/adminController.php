@@ -5,8 +5,11 @@ require_once('model/userModel.php');
 
 class adminController
 {	
+	/**
+	* New instance of a class
+	*/
 	function __construct()
-	{
+	{	
 		$this->adminModel = new adminModel;
 		$this->userModel = new userModel;
 		$this->userModel->checkUserRole(["admin"]);
@@ -15,6 +18,9 @@ class adminController
 		// echo "</pre>";
 	}
 
+	/**
+	* Find bugs with this method.
+	*/
 	private function debug($data)
 	{
 		echo '<pre>';
@@ -22,32 +28,42 @@ class adminController
 		echo '</pre>';
 	}
 
-	// Router naar bioscopenpagina
+	/**
+	* show bios panel
+	*/
 	public function biosPanel() 
-	{
+	{	
 		require_once('view/biosPanel.php');
 	}
 
-	// Router naar form voor invullen bioscoop
+	/**
+	* show form for adding bios
+	*/
 	public function addBios() 
 	{
 		require_once('view/addBios.php');
 	}
 
-	// Router naar admin panel
+	/**
+	* show admin panel
+	*/
 	public function adminPanel()
 	{
 		require_once('view/adminPanel.php');
 	}
 
-	// Router naar over ons aanpassen
+	/**
+	* show cms
+	*/
 	public function editOverOns()
 	{
 		require_once('view/editOverOns.php');
 	}
 	
-	// Verwerkt ingevulde gegevens
-	
+	/**
+	* Input: form filled in with data for new bios
+	  Output: new bios in database
+	*/
 	public function collectBios() {
 		if(isset($_POST["create"])) {
 			$naam = $_POST['bios_naam'];
@@ -86,6 +102,9 @@ class adminController
 		
 	}
 
+	/**
+	* show cms
+	*/
 	public function showCMS() 
 	{
 		$cms = $this->adminModel->readCMS();

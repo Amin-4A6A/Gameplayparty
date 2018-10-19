@@ -4,18 +4,28 @@ require_once('model/reserveringsModel.php');
 
 class reserveringsController
 {	
+	/**
+	* Create new instance
+	*/
 	function __construct()
 	{
 		$this->reserveringsModel = new reserveringsModel;
 	}
 
+	/**
+	* Show reserve form
+	*/
 	public function reservering() 
 	{
 		$tijden = $this->reserveringsModel->readTijden();
 		include('view/reserveringsform.php');
 		
     }
-   
+   	
+   	/**
+	* Input: reserve data
+	  Output: user has reserved
+	*/
     public function collectreservering() {
 		if(isset($_POST["create"])) {
 			$voornaam = $_POST['voornaam'];

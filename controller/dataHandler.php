@@ -6,6 +6,9 @@ class dataHandler
 
     public $conn;
 
+    /**
+    * Create database connection
+    */
     function __construct($dbtype, $servername, $dbname, $username, $password)
     {
         try {
@@ -17,6 +20,10 @@ class dataHandler
         }
     }
 
+    /**
+    * Input: SQL for Creating data
+      Output: last inserted ID
+    */
     function CreateData($sql)
     {
         $data = $this->conn->prepare($sql);
@@ -24,6 +31,10 @@ class dataHandler
         return $this->conn->lastInsertId();
     }
 
+    /**
+    * Input: SQL for Reading Data
+      Output: the SQL you asked for
+    */
     function ReadData($sql)
     {
         $stmt = $this->conn->prepare($sql);
@@ -32,12 +43,20 @@ class dataHandler
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
+    /**
+    * Input: SQL for Updating Data
+      Output: the SQL you asked for
+    */
     function UpdateData($sql)
     {
         $stmt = $this->conn->prepare($sql);
         $stmt->execute();
     }
 
+    /**
+    * Input SQL for Deleting Data
+      Output: the SQL you asked for
+    */
     function DeleteData($sql)
     {
         $stmt = $this->conn->prepare($sql);
