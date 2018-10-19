@@ -20,7 +20,7 @@ class reserveringsController
 		if(isset($_POST["create"])) {
 			$voornaam = $_POST['voornaam'];
 			$achternaam = $_POST['achternaam'];
-			$telefoonnummer = $_POST['telefoonnummer'];
+			$telefoonnummer = $_POST['telefoonnummer'];                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 			$straatnaam = $_POST['straatnaam'];
 			$huisnummer = $_POST['huisnummer'];
 			$toevoeging = $_POST['toevoeging'];

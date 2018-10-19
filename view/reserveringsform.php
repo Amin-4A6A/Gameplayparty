@@ -1,29 +1,29 @@
 <?php include('partials/header.php'); ?>
 <!-- <?php include(''); ?> -->
-<form method="post" action="../reserveringsController/collectreservering/">
+<form method="post" action="../../reserveringsController/collectreservering/">
         <h1> Bioscoop reserveren </h1>
         <div class="form-group">
-            <label for="voornaam">voornaam&#42;</label>
+            <label for="voornaam">Voornaam&#42;</label>
             <input type="text" class="form-control" name="voornaam" placeholder="voornaam.." required>
         </div>
         <div class="form-group">
-            <label for="achternaam">achternaam&#42;</label>
+            <label for="achternaam">Achternaam&#42;</label>
             <input type="text" class="form-control" name="achternaam" placeholder="achternaam.." required>
         </div>
         <div class="form-group">
-            <label for="huisnummer">telefoonnummer&#42;</label>
+            <label for="huisnummer">Telefoonnummer&#42;</label>
             <input type="text" class="form-control" name="telefoonnummer" placeholder="telefoonnummer.." required>
         </div>
         <div class="form-group">
-            <label for="toevoeging">straatnaam&#42;</label>
+            <label for="toevoeging">Straatnaam&#42;</label>
             <input type="text" class="form-control" name="straatnaam" placeholder="straatnaam.." required>
         </div>
         <div class="form-group">
-            <label for="huisnummer">huisnummer&#42;</label>
+            <label for="huisnummer">Huisnummer&#42;</label>
             <input type="text" class="form-control" name="huisnummer" placeholder="huisnummer.." required>
         </div>
         <div class="form-group">
-            <label for="toevoeging">toevoeging&#42;</label>
+            <label for="toevoeging">Toevoeging&#42;</label>
             <input type="text" class="form-control" name="toevoeging" placeholder="toevoeging.." required>
         </div>
         <div class="form-group">
